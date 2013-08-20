@@ -15,7 +15,7 @@ First, install all required dependencies: `./setup.sh` — it’ll check for rub
 and install bundler, foreman, and finally bundle all dependencies.
 
 Starting the development server is as simple as using `foreman start`. You can
-also execute the server manually by doing `bundle exec middleman server -p 5000`.
+also execute the server manually by doing `bundle exec rackup -p 5000`.
 
 ## Deployment
 
