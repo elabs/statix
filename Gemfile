@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
 gem "middleman"
-gem "middleman-bourbon"
+gem 'middleman-autoprefixer'
 gem "middleman-smusher"
 gem "middleman-livereload"

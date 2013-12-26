@@ -41,6 +41,9 @@ activate :livereload
 # Add bourbon for import in SCSS
 activate :bourbon
 
+# Use CSS autoprefixer for CSS3 selectors.
+activate :autoprefixer, browsers: ["last 2 versions"]
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
