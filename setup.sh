@@ -18,12 +18,6 @@ then
   run gem install bundler
 fi
 
-if !(hash bundle 2>/dev/null)
-then
-  echo >&2 "Foreman not available. Installing…"
-  run gem install foreman
-fi
-
 run bundle install
 
 echo "Done! Please read the README."
