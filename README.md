@@ -1,3 +1,5 @@
+# PROJECT IS ARCHIVED, DO NOT USE
+
 # Elabs, the Middleman
 
 This repository is a simple preconfigured Middleman application with sensible
